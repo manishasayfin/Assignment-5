@@ -1,77 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Chat Page</title>
-    <style>
-      body {
-        font-family: 'Roboto', sans-serif;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="min-h-screen p-4" style="background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png'); background-size: cover;">
-      
-      <!-- Rahul Header -->
-      <div class="bg-[#323f4b] p-4 text-center text-[#ffffff] text-xl font-medium">
-        Rahul
-      </div>
-
-      <!-- Chat Messages -->
-      <div class="mt-4">
-        <!-- Message 1 - Right side -->
-        <div class="flex justify-end mb-4">
-          <div class="bg-[#47a3f3] text-[#ffffff] p-3 rounded-t-lg rounded-bl-lg max-w-xs">
-            Hello Rahul, how are you?
-          </div>
-        </div>
-
-        <!-- Message 2 - Left side -->
-        <div class="flex justify-start mb-4">
-          <div class="bg-[#52606d] text-[#ffffff] p-3 rounded-t-lg rounded-br-lg max-w-xs">
-            Hi Varakumar, I am good. How about you?
-          </div>
-        </div>
-
-        <!-- Message 3 - Right side -->
-        <div class="flex justify-end mb-4">
-          <div class="bg-[#47a3f3] text-[#ffffff] p-3 rounded-t-lg rounded-bl-lg max-w-xs">
-            I'm fine. I published my website recently
-          </div>
-        </div>
-
-        <!-- Message 4 - Left side -->
-        <div class="flex justify-start mb-4">
-          <div class="bg-[#52606d] text-[#ffffff] p-3 rounded-t-lg rounded-br-lg max-w-xs">
-            Oh great Varakumar! Can you send me the URL?
-          </div>
-        </div>
-
-        <!-- Message 5 - Right side -->
-        <div class="flex justify-end mb-4">
-          <div class="bg-[#47a3f3] text-[#ffffff] p-3 rounded-t-lg rounded-bl-lg max-w-xs">
-            https://varakumar.ccbp.tech
-          </div>
-        </div>
-
-        <!-- Message 6 - Left side -->
-        <div class="flex justify-start mb-4">
-          <div class="bg-[#52606d] text-[#ffffff] p-3 rounded-t-lg rounded-br-lg max-w-xs">
-            Awesome Varakumar, where did you learn?
-          </div>
-        </div>
-
-        <!-- Message 7 - Right side -->
-        <div class="flex justify-end mb-4">
-          <div class="bg-[#47a3f3] text-[#ffffff] p-3 rounded-t-lg rounded-bl-lg max-w-xs">
-            NxtWave CCBP 4.0 Program
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </body>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f5f5f5;
+    }
+    .card {
+      background-color: white;
+      width: 300px;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 80px;
+    }
+    .card h1 {
+      font-size: 22px;
+      margin: 15px 0;
+    }
+    .card p {
+      color: #888;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .card button {
+      background-color: white;
+      color: #D0B200;
+      border: 2px solid #D0B200;
+      padding: 10px 25px;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://ik.imagekit.io/4z8covdo9/Fullstack/food-serve.png?updatedAt=1702142726430" alt="Food Service">
+    <h1>Food Service</h1>
+    <p>Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+    <button>Order Now</button>
+  </div>
+</body>
 </html>
